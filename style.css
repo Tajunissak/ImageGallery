@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container--one{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    padding-top: 30px;
+    
+}
+
+.container--one__new{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px ;
+    width: 80%;
+    margin: 0 auto;
+    flex-basis: 20%;
+}
+.container--one__newphew img{
+ height: 250px;
+ width: 250px;
+ border: solid black 2px;
+ margin: 10px;
+ align-items: center;
+ 
+}
